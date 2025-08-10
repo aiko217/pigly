@@ -28,3 +28,7 @@ DB_PASSWORD=laravel_pass
 - PHP8.1.33
 - Laravel8.83.8
 - MySQL8.0
+
+- ## URL
+- 開発環境：http://localhost/
+- phpMyAdmin:：http://localhost:8080/
