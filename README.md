@@ -22,7 +22,20 @@ DB_DATABASE=laravel_db
 DB_USERNAME=laravel_user
 DB_PASSWORD=laravel_pass
 ```
+7. アプリケーションキーの作成
+``` bash
+php artisan key:generate
+```
 
+8. マイグレーションの実行
+``` bash
+php artisan migrate
+```
+
+9. シーディングの実行
+``` bash
+php artisan db:seed
+```
 
 ## 使用技術(実行環境)
 - PHP8.1.33
