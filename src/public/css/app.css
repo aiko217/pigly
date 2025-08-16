@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #ffd1dc, #fcb1c8, #fce1ec);
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    min-height: 100vh;
+}
+
+
+.header {
+    display: grid;
+    align-items: center;
+    padding: 16px 0;
+    height: 80px;
+    border: none;
+    text-align: center;
+    font-family: serif;
+}
+
+.header__heading {
+    font-weight: lighter;
+    font-size: 40px;
+    color: rgb(233, 160, 211);
+ }

@@ -1,0 +1,170 @@
+/* 全体背景 */
+body {
+    background-color: #E0DFDE;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.stats-cards {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.stats-cards .card {
+    flex: 1;
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.stats-cards h6 {
+    font-size: 14px;
+    color: #888;
+    margin-bottom: 8px;
+}
+
+.stats-cards h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.stats-cards span {
+    font-size: 14px;
+    color: #666;
+}
+
+.search-form {
+    margin-bottom: 20px;
+}
+
+.search-form__actions {
+    display: flex;
+
+    gap: 24px; 
+}
+
+.search-form__search-btn,
+.search-form__reset-btn {
+    padding: 12px;
+    width: 90px;
+}
+
+.search-form__reset-btn {
+    background-color: #D9C6B5;
+}
+.search-form input[type="date"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.btn-search {
+    background-color: #999;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.btn-reset {
+    background-color: #f8a1d1;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.btn-primary {
+    margin-top: 40px;
+    background: linear-gradient(90deg, #a985ef, #f2a2d1);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.7rem;
+    width: 15%;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.admin__table {
+    margin-top: 16px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.admin__row {
+    border: 1px solid #E0DFDE;
+}
+
+.admin__label,
+.admin__data {
+    padding: 16px 8px;
+}
+
+.pencil-icon {
+    color: linear-gradient(90deg, #a985ef, #f2a2d1);
+}
+
+.edit-btn img {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.2s ease;
+}
+
+.edit-btn img:hover {
+    opacity: 1;
+}
+
+
+.modal-body__error-message {
+    color: red;
+}
+
+.pagination {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.pagination .page-link {
+    color: #f8a1d1;
+    border-radius: 50%;
+}
+
+.modal-footer {
+    gap: 10px;
+}
+
+.modal-fade {
+    position: fixed;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    opacity: 0; 
+}
+
+.require {
+    text-align: center;
+    display: inline-block;
+    color: white;
+    background-color: red;
+    width: 40px;
+    height: 18px;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.form-label {
+    font-weight: bold; 
+}

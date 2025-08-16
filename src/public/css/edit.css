@@ -1,0 +1,24 @@
+.back {
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    color: black;
+    background-color: rgb(214, 214, 214);
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 4px 4px rgb(224, 224, 224);
+    padding-top: 8px;
+}
+
+.btn-primary {
+    width: 200px;
+    height: 40px;
+    border: none;
+    background: linear-gradient(90deg, #a985ef, #f2a2d1);
+    border-radius: 5px;
+    box-shadow: 4px 4px rgb(224, 224, 224);
+}
+
+.edit-form__error-message {
+    color: red;
+}
